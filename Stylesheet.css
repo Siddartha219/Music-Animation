@@ -7,11 +7,17 @@ body{
 .container{
    gap: 10px;
    display: flex;
+   border: 2px solid gold;
+   background-color: gold;
+   width: 600px;
+   height: 300px;
+   justify-content: center;
+   align-items: center;
 }
 .music{
     width: 10px;
-    height: 100px;
-    background-color: rgb(247, 0, 255);
+    height: 200px;
+    background-color: rgb(38, 0, 255);
     animation: A 1s infinite;
     border-radius: 10px;
 
@@ -40,7 +46,7 @@ body{
 @keyframes A{
     0%{
        transform: rotateY(1);
-       height: 100px;
+       height: 200px;
 
     }
     50%{
